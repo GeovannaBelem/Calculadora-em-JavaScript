@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+#painel{
+    width: 50%;
+    height: 70px;
+    background-color: #5da0ec;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 45px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    width: 12.2%;
+    height: 60px;
+    background-color: #89bbf5;
+    color: black;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+}
+
+.teclas{
+    margin-left: 34%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-1100px;
+}
+
+#titulo{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    top:-1140px;
+}
+
+
+#ret1{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret2{
+    width: 15%;
+    height: 2344%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret3{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret4{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret5{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+ 
+}
+
+#ret6{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret7{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+#ret8{
+    width: 15%;
+    height: 24%;
+    background-color: #820000;
+    margin-left: 2%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5757;
+}
+
+.blocos2{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-600px;
+}
+
+footer{
+    position: relative;
+    top:-1040px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #820000;
+}
+
+body{
+    height: 100vh;
+    background-color: #FF5757;
+}
+*{margin:0}

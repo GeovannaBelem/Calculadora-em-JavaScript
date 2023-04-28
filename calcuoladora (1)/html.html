@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="shortcut icon" href="IMG/sinais-da-matemática-5742228.jpg" type="image/x-icon">
+    <script src="js/js.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="blocos1">
+        <div id="ret1">+</div>
+        <br>
+        <div id="ret2">-</div>
+        <br>
+        <div id="ret3">x</div>
+        <br>
+        <div id="ret4">/</div>
+    </div>
+    <div class="blocos2">
+        <div id="ret5">π</div>
+        <br>
+        <div id="ret6">%</div>
+        <br>
+        <div id="ret7">=</div>
+        <br>
+        <div id="ret8">></div>
+    </div>
+
+        <h1 id="titulo">CALCULADORA</h1>
+        
+    <div class="teclas">
+        <div id="painel"></div>
+        <div class="teclas_l_1">
+            <button onclick="limpar()">C</button>
+            <button onclick="pegar(',')">,</button>
+            <button onclick="pegar('%')">%</button>
+            <button onclick="pegar('/')">/</button>
+        </div>
+        <div class="teclas_l_2">
+            <button onclick="pegar('7')">7</button>
+            <button onclick="pegar('8')">8</button>
+            <button onclick="pegar('9')">9</button>
+            <button onclick="pegar('*')">*</button>
+        </div>
+        <div class="teclas_l_3">
+            <button onclick="pegar('4')">4</button>
+            <button onclick="pegar('5')">5</button>
+            <button onclick="pegar('6')">6</button>
+            <button onclick="pegar('-')">-</button>
+        </div>
+        <div class="teclas_l_4">
+            <button onclick="pegar('1')">1</button>
+            <button onclick="pegar('2')">2</button>
+            <button onclick="pegar('3')">3</button>
+            <button onclick="pegar('+')">+</button>
+        </div>
+        <div class="teclas_l_5">
+            <button onclick="apagar()">></button>
+            <button onclick="pegar('0')">0</button>
+            <button onclick="pegar('.')">.</button>
+            <button onclick="resposta()">=</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p id="cop">Copyrid &copy; Geovanna Belem</p>
+</footer>
+    
+</body>
+
+</html>
